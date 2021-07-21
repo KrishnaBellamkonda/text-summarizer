@@ -44,4 +44,5 @@ Install the following packages globally in python
 * 5) Tensorflow Serving documentation (https://www.tensorflow.org/install/docker)
 * 6) Python Installation (https://www.python.org/downloads/)
 * 7) Tensorflow Installation (https://www.tensorflow.org/install)
+* 8) Guardian Article (https://www.theguardian.com/world/2021/jul/18/uk-covid-cases-could-hit-200000-a-day-says-neil-ferguson-scientist-behind-lockdown-strategy-england)
 
