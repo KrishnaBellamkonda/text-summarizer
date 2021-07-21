@@ -1,0 +1,42 @@
+h1 {
+    padding: 9%;
+    color: azure;
+    font-size: 65px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 100px
+    
+}
+
+h2 {
+    padding: 2%;
+    color: azure;
+    font-size: 30px;
+    font-style: italic;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 200px;
+
+}
+
+button {
+    position: relative;
+    top: 100px;
+    background-color:rgb(221, 92, 118);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.2s;
+    color: white;
+    border-radius: 80px;
+}
+
+button:hover {
+    background-color: rgb(8, 199, 199); 
+    color: white;
+}

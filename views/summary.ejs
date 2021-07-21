@@ -1,0 +1,119 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <style>
+
+            .header {
+                padding: 10%;
+                background:  rgb(221, 92, 118);
+                color: azure;
+                font-size: 35px;
+                font-style: italic;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            }
+
+            .h3_formating {
+
+                padding: 2%;
+                background: rgb(8, 199, 199);
+                color: azure;
+                font-size: 24px;
+                font-style: italic;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            }
+
+            li {
+                font-size: 18px;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: normal;
+
+            }
+
+            .summary_block {
+                padding: 4%;
+                background-color: rgb(240, 216, 171);
+            }
+
+            .entire_text_block {
+                padding: 4%;
+                background-color: rgb(240, 216, 171);
+                font-size: 18px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        </style>
+
+
+        <center>
+            <h1 id="header" class="header">Extractive Summary</h1>
+        </center>
+
+        <style>
+            #page{
+                display: none;
+            }
+            #loading{
+                display: block;
+            }
+        </style>
+        <script>
+            function myFunction()
+            {
+                document.getElementById("page").style.display = "block";
+                document.getElementById("loading").style.display = "none";
+            }
+        </script>
+
+
+
+
+    </head>
+
+
+    <body onload="myFunction()">
+        <br>
+        <div id="page">
+            <h3 class="h3_formating">Summary:</h3>
+            <p id="Extraction"> </p>
+            <div class = "summary_block">
+            <ul>
+
+            <% var n_extractives = 3; %>
+            <% function capitalizeFirstLetter(string) { %>
+                <% return string && string.charAt(0).toUpperCase() + string.slice(1); %>
+            <%}%>
+            <% indices.slice(0, n_extractives).forEach((index) => {%>
+                <li><%=capitalizeFirstLetter(data_string_list[index]) %></li>
+                <br>
+            <%});%>
+            </ul>
+            <br>
+            <br>
+            <lr>
+            </div>
+
+            <br>
+
+            <h3 class="h3_formating">Entire Text:</h3>
+            <br>
+            <div class="entire_text_block">
+            <p id="EntireText">
+                <%=body %>
+            </p>
+            </div>
+
+    
+    
+
+    </body>
+    
+
+
+
+
+
+</html>

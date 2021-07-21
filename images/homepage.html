@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://localhost:5000/summarize.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./homepage_files/SummarizePage2.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./homepage_files/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./homepage_files/bootstrap.min(1).css">
+        <script src="./homepage_files/jquery.min.js.download"></script>
+        <script src="./homepage_files/bootstrap.min.js.download"></script>
+    </head>
+
+    <body>
+
+            <div id="header">
+                <center>
+                    <h1 class="header" style="top: 20%;">SUM-UP</h1>
+                </center>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="grid-container">
+
+                
+                <div class="instructions">
+                    <h3><b>How to summarize?</b></h3>
+                <p>
+                    Paste or write the text you want to summarize in the below box and hit 
+                    the summarize button. The summarization might take a few seconds. 
+                </p>
+
+                </div>
+
+                <div class="short_takes">
+
+                    <h3><b>Quick Takes</b></h3>
+                <ul>
+                    <li>
+                        <p>
+                            Sum-Up utilizes an Artifical Intelligence (A.I) model
+                            to summarize your text.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            It is built upon the Google's state-of-the-art BERT embeddings and is fine tuned
+                            for the task.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            This model can summary various types of text
+                        </p>
+                    </li>
+
+                    
+                </ul>
+                
+                    
+                </div>
+
+                <div class="gap_form"></div>
+
+                <div class="input_form">
+
+                    <h3><b>Summarize your text:</b></h3>
+                    <br>
+                    
+                        <form method="GET" action="http://localhost:5000/loading"> 
+                            
+
+                            <div class="text_box">
+                                <p>
+                                    Enter your text below:
+                                </p>
+                                <br>
+                                <textarea type="text" name="data" class="text_box" id="input_text_box"></textarea>
+
+                            </div>
+                            
+                    <!--  
+                    <ol>
+                        <li><p>Summary type: long, medium or short</p></li>
+                        <li><p>Entry form: The user enters the data that needs to be summarized</p></li>
+                    </ol>
+                    -->   
+    
+
+
+                </form></div>  
+                
+                <!--<div class="gap_form"></div> -->
+                
+            </div>
+
+            <div>
+                    
+                <a href="http://localhost:5000/loading"><button variant="contained"><b>Summarize</b></button></a>   
+            
+        </div>
+    
+
+
+        
+
+  
+
+
+
+<!---
+<div id="header">
+    <center>
+        <h1>SUM-UP</h1>
+    </center>
+</div>
+
+
+<div id="instructions_and_notes" class="row">
+    <div class="col-sm-4">
+        <p>Instructions</p>
+    </div>
+    
+</div>
+
+<div id="input_form" class="row">
+
+    <div class="col-sm-4">
+        <p>Input Form</p>
+    </div>
+   
+</div>
+
+<div id="summarize_button" class="row">
+    
+    <div class="col-sm-4">
+        <p>Summarize</p>
+    </div>
+    
+</div>
+
+<div id="about_info" class="column">
+
+    <div class="col-sm-4">
+        <p>About Info</p>
+    </div>
+    
+</div>
+
+--></body></html>

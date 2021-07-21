@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+        <script>
+	            $(window).load(function() {
+		        // Animate loader off screen
+		        $(".se-pre-con").fadeOut("slow");;
+	                });
+        </script>
+
+        <style>
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+            .se-pre-con {
+	        position: fixed;
+	        left: 0px;
+	        top: 0px;
+	        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+        }
+        </style>
+
+        <center>
+            <h1 id="header">Extractive Summary</h1>
+        </center>
+    </head>
+
+
+    <body>
+        <h3>Enter the Paragraphs:</h3>
+        <form method="GET" action="/loading">
+            <input name="data" type="text"></input><br>
+            <input type="submit"></input>
+        </form>
+
+
+        <h3>Your Paragraphs:</h3>
+        <p id="DisplayData">Here</p>
+
+
+    </body>
+    
+    <div class="se-pre-con"></div>
+
+
+
+
+
+</html>

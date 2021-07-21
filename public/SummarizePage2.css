@@ -1,0 +1,150 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2% 62% 2% 33%;
+  }
+
+.grid-container > div {
+
+    padding: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
+
+.instructions {
+
+    background: cornflowerblue;
+    font-size: 18px;
+    grid-column-start: 2;
+}
+
+.gap_form {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.input_form {
+ 
+    background: cornflowerblue;
+    font-size: 18px;
+
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 12;
+}
+
+
+button {
+    position: relative;
+    top: 100px;
+    left:33%;
+
+    
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.2s;
+    border-radius: 80px;
+    color: red;
+}
+
+button:hover {
+    background-color: rgb(8, 199, 199);
+    color: white;
+}
+
+.short_takes{
+    
+    background:  rgb(8, 199, 199);
+    font-size: 18px;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    
+    
+
+}
+
+.header {
+    padding: 10%;
+    background:  rgb(221, 92, 118);
+    color: azure;
+    font-size: 65px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  #input_text_box {
+      height:500px;
+      width: 95%;
+      font-size: 12px;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 2%;
+  }
