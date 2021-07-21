@@ -24,8 +24,6 @@ Install the following packages globally in python**
 * nltk
 * tensorflow 
 
-
- 
  
 #### Nodejs
 
@@ -34,6 +32,12 @@ Install the following packages globally in python**
 * 3) The application will be hosted on localhost:5000
 
 ### AI in action
+
+* The Guardian article given in the [Sources section](#sources) has been put into the system.
+* Homepage
+<img src="./images/homepage.jpg"><img/>
+* Summary Page
+<img src="./images/summary.jpg"><img/>
 
 
 ### Sources 
@@ -44,4 +48,5 @@ Install the following packages globally in python**
 * 5) Tensorflow Serving documentation (https://www.tensorflow.org/install/docker)
 * 6) Python Installation (https://www.python.org/downloads/)
 * 7) Tensorflow Installation (https://www.tensorflow.org/install)
+* 8) TFHUB link for BERT uncased (https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1)
 
