@@ -39,7 +39,7 @@ Install the following packages globally in python**
 * Summary Page
 <img src="./images/summary.jpg"><img/>
 * Docker Tensorflow Model Hosting 
-<img src="./images/docker_tf_hosting.jpg"><img/>
+<img src="./images/docker_tf_hosting.png"><img/>
 
 
 ### Sources 
