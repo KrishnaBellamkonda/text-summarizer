@@ -38,6 +38,8 @@ Install the following packages globally in python**
 <img src="./images/homepage.jpg"><img/>
 * Summary Page
 <img src="./images/summary.jpg"><img/>
+* Docker Tensorflow Model Hosting 
+<img src="./images/docker_tf_hosting.jpg"><img/>
 
 
 ### Sources 
