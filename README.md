@@ -1,7 +1,7 @@
 # text-summarizer
 
 ### Desccription
-*An AI application built over Google's BERT model that can produce an extractive summary of a text. This applcation used a custom build tensorflow model built upon the BERT to obtain to produce predicitons on the relative importance of each sentence. These predictions are then used to produce a summary. *
+*An AI application built over Google's BERT model that can produce an extractive summary of a text. This applcation used a custom build tensorflow model built upon the BERT to obtain to produce predicitons on the relative importance of each sentence. These predictions are then used to produce a summary.*
 
 ### Table of Contents 
 * [Setup](#setup)
