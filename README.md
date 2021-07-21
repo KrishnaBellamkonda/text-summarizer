@@ -1,5 +1,5 @@
 # text-summarizer
-*An AI application built over Google's BERT model that can produce an extractive summary of a text. *
+*An AI application built over Google's BERT model that can produce an extractive summary of a text.*
 
 ### Table of Contents 
 
@@ -16,8 +16,8 @@ Follow these steps to setup the application on your system -
   * For any further reference to Tensorflow Serving, check out the following link to Docker documentation (https://www.tensorflow.org/install/docker)
 
 #### Python 
-* Have Python installed on your system (if not installed, use this https://www.python.org/downloads/)
-Install the following packages globally in python
+**Have Python installed on your system (if not installed, use this https://www.python.org/downloads/)
+Install the following packages globally in python**
 * json 
 * os
 * numpy 
