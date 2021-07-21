@@ -1,4 +1,6 @@
 # text-summarizer
+
+### Desccription
 *An AI application built over Google's BERT model that can produce an extractive summary of a text.*
 
 ### Table of Contents 
@@ -31,6 +33,32 @@ Install the following packages globally in python**
 * 2) Run `$ node index.js`
 * 3) The application will be hosted on localhost:5000
 
+### Functionality 
+* The Tensorflow/serving image serves the tensorflow model (whose building will be posted in another repository) at the REST port (8501)
+* The Nodejs Express application build a server which takes in the article to be summarized at '/summarize.html'
+* On hitting the 'Summarize' button, the python scripts in the backend run the preprocessing steps to convert the input into a format that the A.I model can understand. This preprocessed string is then saved. 
+* The Express application then uses this preprocessed string to send a post request to the A.I model hosted at port 8501 and receives predictions. 
+* The Express application then uses these predictions to produce an extractive summarization of the given input. 
+* This summary is then posted onto '/summary.html' page.
+
+### Technology Used 
+* JavaScript 
+  - Nodejs
+  - Express 
+  - Child process
+  - Ejs
+  - Server side rendering 
+* Python 
+  - numpy 
+  - nltk 
+  - TensorFlow 
+  - bert uncased model  
+  - custom A.I model building 
+* Docker 
+  - TensorFlow/serving
+  - Keras A.I model hosting  
+
+
 ### AI in action
 
 * The Guardian article given in the [Sources section](#sources) has been put into the system.
@@ -40,6 +68,8 @@ Install the following packages globally in python**
 <img src="./images/summary.jpg"><img/>
 * Docker Tensorflow Model Hosting 
 <img src="./images/docker_tf_hosting.png"><img/>
+
+
 
 
 ### Sources 
