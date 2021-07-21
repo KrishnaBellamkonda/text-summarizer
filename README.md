@@ -4,7 +4,11 @@
 *An AI application built over Google's BERT model that can produce an extractive summary of a text.*
 
 ### Table of Contents 
-
+* [Setup](#setup)
+* [Functionality](#functionality)
+* [Technology](#technology)
+* [AI in Action ](#ai-in-action)
+* [Sources](#sources)
 
 ### Setup
 Follow these steps to setup the application on your system - 
@@ -41,7 +45,7 @@ Install the following packages globally in python**
 * The Express application then uses these predictions to produce an extractive summarization of the given input. 
 * This summary is then posted onto '/summary.html' page.
 
-### Technology Used 
+### Technology 
 * JavaScript 
   - Nodejs
   - Express 
@@ -59,7 +63,7 @@ Install the following packages globally in python**
   - Keras A.I model hosting  
 
 
-### AI in action
+### AI in Action
 
 * The Guardian article given in the [Sources section](#sources) has been put into the system.
 * Homepage
