@@ -42,7 +42,7 @@ Install the following packages globally in python**
 
 ### Sources 
 * 1) Guardian Article considered in [AI in Action](#ai-in-action) section (https://www.theguardian.com/world/2021/jul/18/uk-covid-cases-could-hit-200000-a-day-says-neil-ferguson-scientist-behind-lockdown-strategy-england)
-* 2) Google BERT 
+* 2) Google BERT (https://blog.google/products/search/search-language-understanding-bert/)
 * 3) Repositories performing extractive summarization
 * 4) Docker installation documentation (https://docs.docker.com/engine/install/)
 * 5) Tensorflow Serving documentation (https://www.tensorflow.org/install/docker)
